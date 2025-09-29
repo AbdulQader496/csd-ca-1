@@ -29,6 +29,3 @@ jobs:
 
       - name: Test
         run: dotnet test --no-build --configuration Release --verbosity normal
-
-      - name: Publish
-        run: dotnet publish --no-build --configuration Release --output ./publish
